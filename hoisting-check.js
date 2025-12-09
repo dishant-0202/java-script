@@ -1,4 +1,7 @@
- var num=7;
+ console.log(num);
+ var num=1;
+ getname()
+
 
  function getname(){
     console.log("hello world");
