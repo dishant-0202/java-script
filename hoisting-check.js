@@ -4,7 +4,7 @@
  var num=1;
  getname()
 
-
+      
  function getname(){
     console.log("hello world");
  }
