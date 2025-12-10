@@ -1,5 +1,6 @@
+console.log(a);                  //  this is give undefined variable...
 var a;
-console.log(a);
+
 //   console.log(b);               this statement give error because b variable is not defined...
 
 a=101;
