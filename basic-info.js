@@ -18,9 +18,13 @@ b();
 
 //  aninymous function ...
 
-function () {
-    //  function without name is called aninymous function...    
-}
+setTimeout(function() {
+    console.log("Hi");               ////  function without name is called aninymous function...
+}, 1000);
+       
+   
+
+
 //  named function expression ...
 
 var b = function a() {
