@@ -3,7 +3,7 @@ function x() {
         function close(x) {
             setTimeout(function () {
                 console.log(x);
-            },x * 3000);
+            },x * 1000);
         }
          close(i);
     }
