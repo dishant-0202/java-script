@@ -1,14 +1,21 @@
-  function x() {
-      var a = 20;
-      var b = 40;
-      function y() {
-          console.log(a);
+function a() {
+    var x = 10;
 
-      }
-      return y;
+    function b() {
+        let y = 20;
 
-  }
-  var z = x();
-  console.log(z);
+        function c() {
+            let z = 30;
 
-  z();
+            function d() {
+                console.log(x, y, z);
+            }
+            return d;
+        }
+
+        return c;
+    }
+    return b;
+}
+var e = a()()();
+e();
