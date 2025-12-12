@@ -1,6 +1,6 @@
 // 1. Assign a function to a variable...
 
-const a = function() {
+const a = function () {
     console.log("Hello");
 };
 a();
@@ -13,7 +13,7 @@ function b() {
 }
 
 function c() {
-   // calling the function passed as an argument
+    // calling the function passed as an argument
 }
 
 b(c);
@@ -21,14 +21,10 @@ b(c);
 // 3. Return a function from another function ...
 
 function outer() {
-    return function() {
-        console.log("Inner function");
-          return 
+    return function () {
+        console.log("Inner function");                                         
     };
-  
+
 }
 const inner = outer();
-inner();  // prints Inner function
-
-
-
+inner(); // prints Inner function
