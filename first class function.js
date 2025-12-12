@@ -23,7 +23,9 @@ b(c);
 function outer() {
     return function() {
         console.log("Inner function");
+          return 
     };
+  
 }
 const inner = outer();
 inner();  // prints Inner function
