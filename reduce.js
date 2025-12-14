@@ -26,7 +26,7 @@ const output2 = arr.reduce(function(max,curr){
 },0);
 
 
-console.log("max :",output2)
+console.log("max :",output2)*/
 
 
 
@@ -47,15 +47,15 @@ else{
     acc[curr.age]=1;
 }
 return acc;
-},{ });
+},{});
 
-console.log(output3)*/
-
-
+console.log(output3)
 
 
 
-const users = [
+
+
+/*const users = [
   { firstName: "dishant", lastName: "rudani", age: 19 },
   { firstName: "abhi", lastName: "mangukiya", age: 20 },
   { firstName: "viral", lastName: "savaliya", age: 23 },
@@ -67,6 +67,6 @@ const output4 = users.reduce(function (acc, curr) {
         acc.push(curr.firstName + " " + curr.lastName);
     }
     return acc;
-}, []);
+},[]);
 
-console.log(output4);
+console.log(output4);*/
