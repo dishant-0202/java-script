@@ -6,7 +6,7 @@ const a = function () {
 a();
 
 
-// 2. Pass a function as an argument to another function...
+// 2. Pass a function as an argument to another function... 
 
 function b() {
     console.log("Hello");
