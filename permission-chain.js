@@ -7,13 +7,16 @@ function getData(dataId) {
   });
 }
 
+console.log("fatch data 1");
 getData(1)
-  .then(() => {
+  .then((res) => {
+    console.log("fatch data 2");
     return getData(2);
   })
-  .then(() => {
+  .then((res) => {
+    console.log("fatch data 3");
     return getData(3);
   })
-  .then(() => {
-    console.log("All data fetched");
+  .then((res) => {
+    console.log(res);
   });

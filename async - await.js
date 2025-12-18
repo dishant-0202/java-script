@@ -8,8 +8,11 @@ function getData(dataId) {
 }
 
 async function fetchData() {
+  console.log("fatch data 1");
   await getData(1);
+  console.log("fatch data 2");
   await getData(2);
+  console.log("fatch data 3");
   await getData(3);
   console.log("All data fetched");
 }
